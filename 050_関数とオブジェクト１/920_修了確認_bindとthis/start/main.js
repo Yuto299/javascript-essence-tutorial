@@ -1,6 +1,6 @@
 const person = {
   name: 'Tom',
-  bye: function () {
+  bye() {
     console.log('Bye ' + this.name);
   },
   hello: function (greeting) {
@@ -10,7 +10,7 @@ const person = {
   hello1: function () {
     console.log('hello Tom');
   },
-  hello1s: function () {
+  hello1s() {
     // const self = this;
     // setTimeout(() => {
     //   self.hello1();
